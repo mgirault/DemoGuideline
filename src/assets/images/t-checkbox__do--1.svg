@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="200px" viewBox="0 0 430 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>t-checkbox__do--1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="96.5441193%" y1="2.46805302%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.995973636" offset="0.402636416%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="4.-Documention-patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkbox" transform="translate(-166.000000, -1032.000000)">
+            <g id="checkbox__do--1" transform="translate(166.000000, 1032.000000)">
+                <rect id="Rectangle-4" stroke="#EEEEEE" fill="#FAFAFA" x="0.5" y="0.5" width="429" height="199"></rect>
+                <g id="Normal" transform="translate(123.000000, 39.000000)">
+                    <g id="checkboxes/with-label/simple" transform="translate(2.000000, 31.000000)">
+                        <rect id="Rectangle-7" stroke="#ABABAB" stroke-width="1" x="0.5" y="4.5" width="11" height="11" rx="2"></rect>
+                        <text id="Option-1" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" fill="#555555">
+                            <tspan x="27" y="16">Checkbox label text</tspan>
+                        </text>
+                    </g>
+                    <g id="label+field" transform="translate(2.000000, 63.000000)">
+                        <g id="checkboxes/with-label/selected">
+                            <text id="Option-1" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" fill="#555555">
+                                <tspan x="27" y="16">Chexbox label text,</tspan>
+                                <tspan x="27" y="36">very long label, very </tspan>
+                                <tspan x="27" y="56">long</tspan>
+                            </text>
+                            <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 4.000000)">
+                                <rect id="Rectangle-7" stroke="#66BDFF" fill="#66BDFF" x="0.5" y="0.5" width="11" height="11" rx="2"></rect>
+                                <rect id="Rectangle-7-Copy" fill="url(#linearGradient-1)" opacity="0.3" x="1" y="1" width="10" height="10" rx="1"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Checkbox-heading" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="15" font-weight="bold" fill="#17486E" fill-opacity="0.9">
+                        <tspan x="0" y="15">Checkbox heading</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

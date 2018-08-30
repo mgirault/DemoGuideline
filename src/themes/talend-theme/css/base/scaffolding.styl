@@ -1,0 +1,25 @@
+// Base
+html, body
+  height 100%
+
+html
+  font-size 62.5% // 1rem = 10px
+
+body
+  font-size 1.4rem
+  font-family: 'Source Sans Pro', sans-serif
+  overflow-x hidden
+
+.section
+  margin-bottom: 6rem
+  &:after
+    @extend .clearfix
+
+.row
+  margin-bottom 4rem
+  &:after
+    @extend .clearfix
+
+@media screen and (min-width: $screen-is-bigger-than-sm-desktop)
+  article
+    max-width:70%

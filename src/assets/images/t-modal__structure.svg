@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880px" height="335px" viewBox="0 0 880 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>t-modal__structure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1" y="0" width="650" height="231" rx="4"></rect>
+        <filter x="-1.8%" y="-4.1%" width="103.5%" height="110.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M4,9.81600579e-10 L57,9.81600579e-10 C59.209139,9.81596249e-10 61,1.790861 61,4 L61,31 C61,33.209139 59.209139,35 57,35 L4,35 C1.790861,35 2.705415e-16,33.209139 0,31 L0,4 C-2.705415e-16,1.790861 1.790861,9.81602761e-10 4,9.81602355e-10 Z" id="path-4"></path>
+        <filter x="-2.5%" y="-4.3%" width="104.9%" height="108.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="-3" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="4.-Documention-patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Modal" transform="translate(-109.000000, -474.000000)">
+            <g id="modal__structure" transform="translate(109.000000, 474.000000)">
+                <rect id="Rectangle-4" stroke="#EEEEEE" fill="#FAFAFA" x="0.5" y="0.5" width="879" height="334"></rect>
+                <g id="dialog-box/global-action" transform="translate(101.000000, 51.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="BG" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#F6F6F6" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="btn/primary-riogrande" mask="url(#mask-2)" fill-rule="evenodd" stroke-width="1">
+                        <g transform="translate(560.000000, 166.000000)" id="Validate-default">
+                            <g>
+                                <g id="Rectangle-[7-15-8]">
+                                    <use fill="#82BD41" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                </g>
+                                <text id="LABEL" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                                    <tspan x="15" y="21">SAVE</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Header-BG" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="1" y="0" width="650" height="70"></rect>
+                    <text id="Title" mask="url(#mask-2)" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" fill="#202020">
+                        <tspan x="31" y="39">MODAL HEADING</tspan>
+                    </text>
+                    <path d="M0.5,70.5 L650.5,70.5" id="Separator" stroke="#EAEAEA" stroke-width="1" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <text id="While-it-was-just-a" mask="url(#mask-2)" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" fill="#202020">
+                        <tspan x="30" y="114">While it was just a TV show, that little speech at the beginning of the original Star Trek show really </tspan>
+                        <tspan x="30" y="132">did do a good job of capturing our feelings about space. </tspan>
+                    </text>
+                    <g id="btn/secondary-darksilver" mask="url(#mask-2)" fill-rule="evenodd" stroke-width="1">
+                        <g transform="translate(31.000000, 166.000000)" id="cancel">
+                            <g>
+                                <path d="M4,0.75 C2.20507456,0.75 0.75,2.20507456 0.75,4 L0.75,31 C0.75,32.7949254 2.20507456,34.25 4,34.25 L74,34.25 C75.7949254,34.25 77.25,32.7949254 77.25,31 L77.25,4 C77.25,2.20507456 75.7949254,0.75 74,0.75 L4,0.75 Z" id="Rectangle-3-[8-15-9-15]" stroke="#888888" stroke-width="1.5"></path>
+                                <text id="LABEL" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" fill="#888888">
+                                    <tspan x="15.158" y="22">CANCEL</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Normal" transform="translate(102.000000, 21.000000)">
+                    <g id="cote" transform="translate(608.000000, 0.000000)">
+                        <path d="M12.5,16.5 L12.5,20.5" id="Line-3" stroke="#66BDFF" stroke-linecap="square"></path>
+                        <path d="M41.5,16.5 L41.5,20.5" id="Line-4" stroke="#66BDFF" stroke-linecap="square"></path>
+                        <path d="M12.5,18.5 L41.5,18.5" id="Line-2" stroke="#66BDFF" stroke-linecap="square"></path>
+                        <text id="30px-/-3rem" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="10" font-weight="normal" fill="#676767" fill-opacity="0.9">
+                            <tspan x="0" y="10">30px / 3rem</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-6" fill="#6EC01E" opacity="0.2" x="0" y="30" width="650" height="30"></rect>
+                    <rect id="Rectangle-6" fill="#6EC01E" opacity="0.2" x="0" y="231" width="650" height="30"></rect>
+                    <rect id="Rectangle-6" fill="#66BDFF" opacity="0.15" x="30" y="166" width="590" height="30"></rect>
+                    <rect id="Rectangle-6" fill="#66BDFF" opacity="0.15" x="30" y="101" width="590" height="30"></rect>
+                    <rect id="Rectangle-7" fill="#6EC01E" opacity="0.2" x="0" y="30" width="30" height="231"></rect>
+                    <rect id="Rectangle-7" fill="#6EC01E" opacity="0.2" x="620" y="30" width="30" height="231"></rect>
+                    <g id="cote" transform="translate(343.000000, 165.000000)">
+                        <g id="Group" transform="translate(2.500000, 16.000000) rotate(-270.000000) translate(-2.500000, -16.000000) translate(-13.500000, 13.500000)" stroke="#66BDFF" stroke-linecap="square">
+                            <path d="M1.5,0.5 L1.5,4.5" id="Line-3"></path>
+                            <path d="M1.5,2.5 L30.5,2.5" id="Line-2"></path>
+                            <path d="M30.5,0.5 L30.5,4.5" id="Line-4"></path>
+                        </g>
+                        <text id="30-/-3" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="10" font-weight="normal" fill="#676767" fill-opacity="0.9">
+                            <tspan x="10" y="18">30 / 3</tspan>
+                        </text>
+                    </g>
+                    <g id="cote" transform="translate(343.000000, 99.000000)">
+                        <g id="Group" transform="translate(2.500000, 16.500000) rotate(-270.000000) translate(-2.500000, -16.500000) translate(-14.000000, 14.000000)" stroke="#66BDFF" stroke-linecap="square">
+                            <path d="M1.5,0.5 L1.5,4.5" id="Line-3"></path>
+                            <path d="M31.5,0.5 L31.5,4.5" id="Line-4"></path>
+                            <path d="M1.5,2.5 L30.5,2.5" id="Line-2"></path>
+                        </g>
+                        <text id="30-/-3" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="10" font-weight="normal" fill="#676767" fill-opacity="0.9">
+                            <tspan x="10" y="19">30 / 3</tspan>
+                        </text>
+                    </g>
+                    <g id="cote" transform="translate(550.000000, 29.000000)">
+                        <g id="Group" transform="translate(54.500000, 16.000000) rotate(-270.000000) translate(-54.500000, -16.000000) translate(38.500000, 13.500000)" stroke="#66BDFF" stroke-linecap="square">
+                            <path d="M1.5,0.5 L1.5,4.5" id="Line-3"></path>
+                            <path d="M30.5,0.5 L30.5,4.5" id="Line-4"></path>
+                            <path d="M1.5,2.5 L30.5,2.5" id="Line-2"></path>
+                        </g>
+                        <text id="30px-/-3rem" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="10" font-weight="normal" fill="#676767" fill-opacity="0.9">
+                            <tspan x="0" y="19">30px / 3rem</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "talend-documentation-swanky",
+  "author": "Talend",
+  "description": "Talend Documentation Swanky Documentation",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/config/start/serve.dev.js",
+    "prebuild": "rimraf docs/",
+    "build": "NODE_ENV=production webpack -p --config src/config/build/build.prod.js",
+    "build:serve": "npm-run-all build serve:prod",
+    "serve:prod": "http-server docs -o"
+  },
+  "dependencies": {
+    "highlightjs": "9.10.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.1",
+    "swanky": "^4.2.8",
+    "webpack": "^3.10.0"
+  }
+}

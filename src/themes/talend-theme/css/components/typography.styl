@@ -1,0 +1,125 @@
+/*
+ * Swanky Theme
+ * Typography
+ */
+
+$heading-colour = $Lochmara
+
+body
+  line-height rem(22)
+
+h1.h1, h2.h2, h3.h3, h4.h4, h5.h5, h6.h6
+  color $black
+  font-weight 600
+  font-family: 'Source Sans Pro', sans-serif
+  display block
+
+h1.h1
+  font-size 2.8rem
+
+
+h2.h2
+  font-size 2.2rem
+  color $heading-colour
+  padding 0 0 1rem
+  margin 4rem 0 2rem
+  width 100%
+  border-bottom 1px solid $border-colour
+
+h3.h3
+  font-size 1.8rem
+  padding 0 0 0.5rem
+  margin 3rem 0 0
+  color: #236192
+
+h4.h4
+  font-size 1.5rem
+  margin 1.5rem 0 1.5rem
+
+h5.h5
+  font-size 1.3rem
+
+h6.h6
+  font-size 1.1rem
+
+strong.strong
+  font-weight 600
+
+// Links
+a.a, a.a:visited, a.a:focus
+  color $brand-secondary
+  text-decoration none
+
+  &:hover
+    text-decoration underline
+
+blockquote.blockquote
+  margin 0 0 6rem 0
+  padding 0 20px
+  font-style italic
+  background: red
+  border-left 2px solid $brand-tertiary
+
+
+p.p, ul.ul, ol.ol
+  margin-bottom 1rem
+
+hr.hr
+  margin-top 20px
+  margin-bottom 20px
+  border 0
+  border-top 1px solid $border-colour
+
+.hr-top
+  display:block
+  margin-top 20px
+  margin-bottom 20px
+  border 0
+  border-top 2px solid $Lochmara
+
+em.em
+  font-style italic
+
+pre.pre, code.code
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace
+  font-size: 95%
+
+.column-layout
+  .p
+    max-width: none
+
+  @media screen and (min-width: $screen-is-bigger-than-md-desktop)
+    column-count 2
+    column-gap 4rem
+
+.lead
+  margin 0 0 6rem 0
+  padding 0 20px
+  border-left 2px solid $brand-tertiary
+  @extend .column-layout
+
+.page-header
+  padding 0 0 20px
+  box-sizing border-box
+  margin-bottom 40px
+  border-bottom 1px solid $border-colour
+  width: 100%
+
+  @media screen and (min-width: $screen-is-bigger-than-tablet)
+    margin 0
+    position fixed
+    padding: 0;
+    height: $header-height
+    line-height: $header-height
+    width 100%
+    background #fff
+    top 0;
+    z-index 10
+
+.text-block
+  border-left 2px solid $brand-primary
+  padding-left 30px
+  margin 0 0 20px 0
+
+.text-center
+  text-align center

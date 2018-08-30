@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880px" height="516px" viewBox="0 0 880 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>t-modal__example-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="880" height="516"></rect>
+        <rect id="path-3" x="1" y="0" width="650" height="400" rx="4"></rect>
+        <filter x="-1.8%" y="-2.4%" width="103.5%" height="105.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M4,9.81600579e-10 L57,9.81600579e-10 C59.209139,9.81596249e-10 61,1.790861 61,4 L61,31 C61,33.209139 59.209139,35 57,35 L4,35 C1.790861,35 2.705415e-16,33.209139 0,31 L0,4 C-2.705415e-16,1.790861 1.790861,9.81602761e-10 4,9.81602355e-10 Z" id="path-6"></path>
+        <filter x="-2.5%" y="-4.3%" width="104.9%" height="108.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-3" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="4.-Documention-patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Modal" transform="translate(-109.000000, -828.000000)">
+            <g id="modal__example-1" transform="translate(109.000000, 828.000000)">
+                <g id="modal">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#EEEEEE" x="0.5" y="0.5" width="879" height="515"></rect>
+                </g>
+                <g id="dialog-box/global-action" transform="translate(100.000000, 53.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="BG" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                        <use fill="#F6F6F6" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="btn/primary-riogrande" mask="url(#mask-4)" fill-rule="evenodd" stroke-width="1">
+                        <g transform="translate(560.000000, 335.000000)" id="Validate-default">
+                            <g>
+                                <g id="Rectangle-[7-15-8]">
+                                    <use fill="#82BD41" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                </g>
+                                <text id="LABEL" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                                    <tspan x="15" y="21">SAVE</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Header-BG" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-4)" x="1" y="0" width="650" height="70"></rect>
+                    <text id="Title" mask="url(#mask-4)" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" fill="#202020">
+                        <tspan x="31" y="39">CREATE AN ACCOUNT</tspan>
+                    </text>
+                    <path d="M0.5,70.5 L650.5,70.5" id="Separator" stroke="#EAEAEA" stroke-width="1" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                    <text id="While-it-was-just-a" mask="url(#mask-4)" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></text>
+                    <g id="btn/secondary-darksilver" mask="url(#mask-4)" fill-rule="evenodd" stroke-width="1">
+                        <g transform="translate(31.000000, 335.000000)" id="cancel">
+                            <g>
+                                <path d="M4,0.75 C2.20507456,0.75 0.75,2.20507456 0.75,4 L0.75,31 C0.75,32.7949254 2.20507456,34.25 4,34.25 L74,34.25 C75.7949254,34.25 77.25,32.7949254 77.25,31 L77.25,4 C77.25,2.20507456 75.7949254,0.75 74,0.75 L4,0.75 Z" id="Rectangle-3-[8-15-9-15]" stroke="#888888" stroke-width="1.5"></path>
+                                <text id="LABEL" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" fill="#888888">
+                                    <tspan x="15.158" y="22">CANCEL</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="form/default" transform="translate(132.000000, 140.000000)">
+                    <polygon id="subline" fill="#ABABAB" fill-rule="evenodd" points="-4.43201031e-13 26 590 26 590 27 -4.43201031e-13 27"></polygon>
+                    <text id="First-name*" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="20" fill="#202020">
+                        <tspan x="0" y="16">First name*</tspan>
+                    </text>
+                </g>
+                <g id="form/default" transform="translate(132.000000, 190.000000)">
+                    <polygon id="subline" fill="#ABABAB" fill-rule="evenodd" points="-4.43201031e-13 26 590 26 590 27 -4.43201031e-13 27"></polygon>
+                    <text id="First-name*" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="20" fill="#202020">
+                        <tspan x="0" y="16">Last name*</tspan>
+                    </text>
+                </g>
+                <g id="form/selected" transform="translate(129.000000, 235.000000)">
+                    <g id="form/selection-copy">
+                        <polygon id="subline-copy-4" fill="#202020" points="4.83328 51.99974 587.57805 51.99974 587.57805 52.99974 4.83328 52.99974"></polygon>
+                        <text id="Select-a-name-here" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="20" fill="#000000">
+                            <tspan x="4.83606557" y="42">Male</tspan>
+                        </text>
+                        <path d="M547.801457,34.598948 C547.801457,34.451789 547.862687,34.305044 547.98282,34.193255 C548.225439,33.969272 548.617051,33.969272 548.85811,34.193255 L552.302265,37.383494 L555.746433,34.193255 C555.987492,33.969272 556.379494,33.969272 556.62093,34.193255 C556.862769,34.417238 556.862769,34.780244 556.62093,35.003822 L552.302265,39.005042 L547.98282,35.003822 C547.862687,34.892033 547.801457,34.745288 547.801457,34.598948 Z" id="Shape-43-copy" fill="#969696"></path>
+                        <text id="First-name*" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" line-spacing="20" fill="#888888">
+                            <tspan x="4.83606557" y="14">Gender</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="form/selected" transform="translate(129.000000, 305.000000)">
+                    <g id="form/selection-copy">
+                        <polygon id="subline-copy-4" fill="#202020" points="4.83328 51.99974 587.57805 51.99974 587.57805 52.99974 4.83328 52.99974"></polygon>
+                        <text id="Select-a-name-here" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="20" fill="#000000">
+                            <tspan x="4.83606557" y="42">France</tspan>
+                        </text>
+                        <path d="M547.801457,34.598948 C547.801457,34.451789 547.862687,34.305044 547.98282,34.193255 C548.225439,33.969272 548.617051,33.969272 548.85811,34.193255 L552.302265,37.383494 L555.746433,34.193255 C555.987492,33.969272 556.379494,33.969272 556.62093,34.193255 C556.862769,34.417238 556.862769,34.780244 556.62093,35.003822 L552.302265,39.005042 L547.98282,35.003822 C547.862687,34.892033 547.801457,34.745288 547.801457,34.598948 Z" id="Shape-43-copy" fill="#969696"></path>
+                        <text id="First-name*" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" line-spacing="20" fill="#888888">
+                            <tspan x="4.83606557" y="14">Region</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

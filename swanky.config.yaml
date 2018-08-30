@@ -1,0 +1,27 @@
+title: Cobalt Design
+repo: 'https://github.com'
+version: 0.1.0
+src: src
+theme: src/themes/talend-theme
+output: docs
+snippets: src/snippets
+sections:
+  - title: Getting Started
+    content: src/content/getting-started.md
+  - title: What's new
+    content: src/content/whats-new.md
+  - title: Guidelines
+    content: src/content/guidelines.md
+  - title: Styles
+    content: src/content/styles.md
+  - title: Components
+    content: src/content/components.md
+    subSections:
+      - title: Checkbox
+        content: src/content/components/checkbox.md
+      - title: Modal
+        content: src/content/components/modal.md
+      - title: Sub Header
+        content: src/content/components/sub-header.md
+  - title: Ressources
+    content: src/content/ressources.md

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880px" height="336px" viewBox="0 0 880 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>t-modal__style</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="880" height="336"></rect>
+        <rect id="path-3" x="1" y="0" width="650" height="231" rx="4"></rect>
+        <filter x="-1.8%" y="-4.1%" width="103.5%" height="110.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M4,9.81600579e-10 L57,9.81600579e-10 C59.209139,9.81596249e-10 61,1.790861 61,4 L61,31 C61,33.209139 59.209139,35 57,35 L4,35 C1.790861,35 2.705415e-16,33.209139 0,31 L0,4 C-2.705415e-16,1.790861 1.790861,9.81602761e-10 4,9.81602355e-10 Z" id="path-6"></path>
+        <filter x="-2.5%" y="-4.3%" width="104.9%" height="108.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-3" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M727.812769,80 L733.887493,73.9253977 C734.037502,73.7753916 734.037502,73.5317921 733.887493,73.3817861 L732.618186,72.1125045 C732.468177,71.9624985 732.224573,71.9624985 732.074564,72.1125045 L725.99984,78.1858248 L719.926398,72.1125045 C719.775107,71.9624985 719.531502,71.9624985 719.381493,72.1125045 L718.113468,73.3817861 C717.962177,73.5317921 717.962177,73.7753916 718.113468,73.9253977 L724.18691,80 L718.113468,86.0733202 C717.962177,86.2233263 717.962177,86.4669258 718.113468,86.6182139 L719.381493,87.8874955 C719.531502,88.0375015 719.775107,88.0375015 719.926398,87.8874955 L725.99984,81.8128931 L732.074564,87.8874955 C732.224573,88.0375015 732.468177,88.0375015 732.618186,87.8874955 L733.887493,86.6182139 C734.037502,86.4669258 734.037502,86.2233263 733.887493,86.0733202 L727.812769,80 Z" id="path-8"></path>
+    </defs>
+    <g id="4.-Documention-patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Modal" transform="translate(-109.000000, -125.000000)">
+            <g id="modal__style" transform="translate(109.000000, 125.000000)">
+                <g id="states-Image">
+                    <g id="Rectangle-9">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FAFAFA" xlink:href="#path-1"></use>
+                        <rect fill-opacity="0.75" fill="#000000" fill-rule="nonzero" mask="url(#mask-2)" x="-22" y="0" width="902" height="323"></rect>
+                    </g>
+                </g>
+                <g id="dialog-box/global-action" transform="translate(115.000000, 46.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="BG" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                        <use fill="#F6F6F6" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="btn/primary-riogrande" mask="url(#mask-4)" fill-rule="evenodd" stroke-width="1">
+                        <g transform="translate(560.000000, 166.000000)" id="Validate-default">
+                            <g>
+                                <g id="Rectangle-[7-15-8]">
+                                    <use fill="#82BD41" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                </g>
+                                <text id="LABEL" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" line-spacing="20" fill="#FFFFFF">
+                                    <tspan x="15" y="21">SAVE</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Header-BG" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-4)" x="1" y="0" width="650" height="70"></rect>
+                    <text id="Title" mask="url(#mask-4)" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" fill="#202020">
+                        <tspan x="31" y="39">MODAL HEADING</tspan>
+                    </text>
+                    <path d="M0.5,70.5 L650.5,70.5" id="Separator" stroke="#EAEAEA" stroke-width="1" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                    <text id="While-it-was-just-a" mask="url(#mask-4)" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal" fill="#202020">
+                        <tspan x="30" y="114">While it was just a TV show, that little speech at the beginning of the original Star Trek show really </tspan>
+                        <tspan x="30" y="132">did do a good job of capturing our feelings about space. </tspan>
+                    </text>
+                    <g id="btn/secondary-darksilver" mask="url(#mask-4)" fill-rule="evenodd" stroke-width="1">
+                        <g transform="translate(31.000000, 166.000000)" id="cancel">
+                            <g>
+                                <path d="M4,0.75 C2.20507456,0.75 0.75,2.20507456 0.75,4 L0.75,31 C0.75,32.7949254 2.20507456,34.25 4,34.25 L74,34.25 C75.7949254,34.25 77.25,32.7949254 77.25,31 L77.25,4 C77.25,2.20507456 75.7949254,0.75 74,0.75 L4,0.75 Z" id="Rectangle-3-[8-15-9-15]" stroke="#888888" stroke-width="1.5"></path>
+                                <text id="LABEL" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" fill="#888888">
+                                    <tspan x="15.158" y="22">CANCEL</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <mask id="mask-9" fill="white">
+                    <use xlink:href="#path-8"></use>
+                </mask>
+                <use id="Mask" fill="#555555" xlink:href="#path-8"></use>
+            </g>
+        </g>
+    </g>
+</svg>
