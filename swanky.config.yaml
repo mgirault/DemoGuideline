@@ -23,5 +23,7 @@ sections:
         content: src/content/components/modal.md
       - title: Sub Header
         content: src/content/components/sub-header.md
+      - title: Radio
+        content: src/content/components/radio.md
   - title: Ressources
     content: src/content/ressources.md
