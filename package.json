@@ -8,14 +8,18 @@
     "prebuild": "rimraf docs/",
     "build": "NODE_ENV=production webpack -p --config src/config/build/build.prod.js",
     "build:serve": "npm-run-all build serve:prod",
-    "serve:prod": "http-server docs -o"
+    "serve:prod": "http-server docs -o",
+    "create": "./scripts/create.js",
+    "switch": "./scripts/switch.js"
   },
   "dependencies": {
     "highlightjs": "9.10.0"
   },
   "devDependencies": {
+    "cross-spawn": "^6.0.5",
     "http-server": "^0.11.1",
     "npm-run-all": "^4.1.2",
+    "prompts": "^1.1.1",
     "rimraf": "^2.6.1",
     "swanky": "^4.2.8",
     "webpack": "^3.10.0"
